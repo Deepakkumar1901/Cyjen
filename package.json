@@ -1,0 +1,22 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "headless": "npx cypress run",
+    "headed": "npx cypress open",
+    "chromeBrowser": "npx cypress run --browser chrome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonpath": "^1.1.1",
+    "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "node-xlsx": "^0.24.0"
+  },
+  "description": ""
+}
